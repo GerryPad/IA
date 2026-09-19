@@ -1,19 +1,3 @@
-import urllib.request
-import importlib.util
-import numpy as np
-from matplotlib import pyplot as plt
-import pandas as pd
-
-url = "https://raw.githubusercontent.com/GerryPad/IA/refs/heads/master/src/SimpleSearch.py"
-
-urllib.request.urlretrieve(url, "SimpleSearch.py")
-
-import SimpleSearch as sp
-import math
-import time
-from IPython.display import clear_output
-tam_tab = 16
-
 #Importacion de librerias
 import urllib.request #Para descargar recursos remotos
 import importlib.util #Carga e importacion de modulos
